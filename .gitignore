@@ -1,0 +1,13 @@
+# Ignore experiment logs, weights, large data, and system files
+wandb/
+*.nii.gz
+*.pt
+*.pth
+*.zip
+*.h5
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.DS_Store
+checkpoints/
