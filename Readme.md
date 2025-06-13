@@ -103,7 +103,9 @@ COVID-19 WHO Reports
 
 🌐 Ingest real-time data from Reddit, BoomLive, Twitter
 
-👩‍💻 Author
-Mansi Dakhale 
+👩‍💻 Authors
+Mansi Dakhale
+Deepika Vishwakarma
+Soumita Chatterjee
 Master's in AI & ML, IIIT Lucknow
 GitHub • LinkedIn
