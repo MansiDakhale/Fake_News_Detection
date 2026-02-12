@@ -1,16 +1,16 @@
-# 📰 Multi-Modal Fake News Detection using HAMMER++
+#  Multi-Modal Fake News Detection using HAMMER++
 
 > A deep learning pipeline that detects fake news using both textual and visual content, powered by the HAMMER++ multi-modal transformer.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project aims to detect fake news articles by leveraging both text and image modalities. It uses the powerful [HAMMER++](https://arxiv.org/abs/2310.03203) architecture, which performs hierarchical attention across modalities. Weights & Biases is used for experiment tracking, and the model is trained and validated on real-world fake news datasets like BoomLive and AltNews.
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - **Backbone**: HAMMER++
 - **Input**: Text (e.g., headline, content) + Image (e.g., article/post image)
@@ -22,7 +22,7 @@ This project aims to detect fake news articles by leveraging both text and image
 
 ---
 
-## 🔍 Key Results
+##  Key Results
 
 | Metric              | Validation | Test     |
 |---------------------|------------|----------|
@@ -38,7 +38,7 @@ This project aims to detect fake news articles by leveraging both text and image
 
 ---
 
-## 🗂️ Folder Structure
+##  Folder Structure
 
 Fake_News_Detection/
 │
@@ -56,7 +56,7 @@ Fake_News_Detection/
 
 ---
 
-## 🚀 Setup & Training
+##  Setup & Training
 
 ### 1. Clone the Repo
 
@@ -68,17 +68,17 @@ cd Fake_News_Detection
 venv_py311\Scripts\activate 
 
 🛠 Features
-✅ Dual-modality input (text + image)
+ Dual-modality input (text + image)
 
-✅ Fine-tuned HAMMER++ model
+ Fine-tuned HAMMER++ model
 
-✅ W&B integration for tracking and visualization
+ W&B integration for tracking and visualization
 
-✅ Precision-recall balanced output
+ Precision-recall balanced output
 
-⏳ Grounding module placeholder (planned for manipulation localization)
+ Grounding module placeholder (planned for manipulation localization)
 
-📈 Visualizations
+ Visualizations
 Visit WandB Dashboard to view:
 
 Loss & Accuracy curves
@@ -87,7 +87,7 @@ Precision-Recall & ROC curves
 
 Per-class evaluation
 
-🧪 Dataset Sources
+ Dataset Sources
 BoomLive Fake News Dataset
 
 AltNews Public Dataset
@@ -96,14 +96,14 @@ Indian Kanoon JSON
 
 COVID-19 WHO Reports 
 
-📦 Future Work
-🔍 Add grounding-based manipulation localization
+ Future Work
+ Add grounding-based manipulation localization
 
-📱 Deploy as a FastAPI/Streamlit tool
+ Deploy as a FastAPI/Streamlit tool
 
-🌐 Ingest real-time data from Reddit, BoomLive, Twitter
+ Ingest real-time data from Reddit, BoomLive, Twitter
 
-👩‍💻 Authors
+ Authors
 Mansi Dakhale
 Deepika Vishwakarma
 Soumita Chatterjee
